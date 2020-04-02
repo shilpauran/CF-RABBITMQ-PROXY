@@ -1,0 +1,8 @@
+---
+applications:
+- name: txsRabbitmqProxy
+  memory: 256M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
+  services:
+  - txs-rabbitmq
